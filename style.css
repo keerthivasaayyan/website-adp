@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} 
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./background.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    display: inline-block;
+    margin: 0 20px;
+    background-color: rgb(36, 110, 66) ;
+    position: relative;
+  }
+
+  img {
+    width: 10%;
+    height:10%;
+    border-radius: 50%;
+}
+.navbar ul li:hover::after{
+  width:100%;
+  transition: 0.5s;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.content hl{
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25p
+}
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20p 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+   
+} button:hover {
+  margin: 0 20px;
+  background-color: rgb(36, 110, 66) ;
+  position: relative;
+  border-radius: 25px;
+  left: 0;
+  bottom: 0;
+  border: none;
+  z-index: -1;
+}
